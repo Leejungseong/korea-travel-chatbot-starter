@@ -1,0 +1,11 @@
+{
+  "title": "Guide de voyage en Corée",
+  "slogan": "Allons-y ! La Corée, un pays étrange et magnifique",
+  "ask_example": "Exemple : 'Où manger à Séoul ?'",
+  "welcome": "Bonjour ! Je suis le chatbot de voyage en Corée.",
+  "placeholder": "Tapez votre message...",
+  "send": "Envoyer",
+  "auto_reply": "Les destinations recommandées sont Séoul, Busan et Jeju.",
+  "label_bot": "Bot:",
+  "label_user": "Vous:"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Korea Travel Guide",
+  "slogan": "Let's go! Korea, a strange and beautiful country",
+  "ask_example": "Try: 'Where to eat in Seoul?'",
+  "welcome": "Hello! I'm the Korea travel chatbot.",
+  "placeholder": "Type your message...",
+  "send": "Send",
+  "auto_reply": "Recommended destinations are Seoul, Busan, and Jeju.",
+  "label_bot": "Bot:",
+  "label_user": "You:"
+}

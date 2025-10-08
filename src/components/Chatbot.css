@@ -1,0 +1,43 @@
+.chatbot{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+}
+.chat-window{
+  flex:1;
+  padding:16px;
+  overflow-y:auto;
+  max-height:460px;
+}
+.chat-message{ margin-bottom:10px; line-height:1.4;}
+.chat-message.bot{ text-align:left; color:#222;}
+.chat-message.user{ text-align:right; color:#0b62a4;}
+.chat-input{
+  display:flex;
+  padding:10px;
+  border-top:1px solid #e6e6e6;
+  background:#fafafa;
+  margin-top:12px;
+}
+.chat-input input{
+  flex:1;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  margin-right:8px;
+}
+.chat-input button{
+  padding:10px 16px;
+  border:none;
+  background:#0078d7;
+  color:#fff;
+  border-radius:8px;
+  cursor:pointer;
+}
+.chat-input button:hover{ background:#005fa3; }
+
+/* RTL 보완: ar 선택시 .rtl가 documentElement에 적용되므로, 내부 정렬 보정 */
+html[dir="rtl"] .chat-message.bot { text-align:right; }
+html[dir="rtl"] .chat-message.user { text-align:left; }
+html[dir="rtl"] .chat-input input { direction: rtl; text-align: right; }

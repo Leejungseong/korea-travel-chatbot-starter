@@ -1,0 +1,11 @@
+{
+  "title": "Reiseführer Korea",
+  "slogan": "Los geht’s! Korea, ein fremdes und schönes Land",
+  "ask_example": "Beispiel: 'Wo kann man in Seoul essen?'",
+  "welcome": "Hallo! Ich bin der Korea-Reise-Chatbot.",
+  "placeholder": "Nachricht eingeben...",
+  "send": "Senden",
+  "auto_reply": "Empfohlene Reiseziele sind Seoul, Busan und Jeju.",
+  "label_bot": "Bot:",
+  "label_user": "Du:"
+}
