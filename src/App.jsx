@@ -11,7 +11,7 @@ function App() {
     const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
 
     try {
-      const response = await fetch("http://192.168.123.102:3001/chat", {
+      const response = await fetch("/api/chat", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
