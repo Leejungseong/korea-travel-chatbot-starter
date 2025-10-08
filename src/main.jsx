@@ -1,11 +1,25 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './styles.css'
-import './i18n.js'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-createRoot(document.getElementById('root')).render(
+// 🔹 React 앱을 렌더링
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-)
+);
+
+// 🔹 PWA Service Worker 등록
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/sw.js")
+      .then((registration) => {
+        console.log("✅ Service Worker 등록 성공:", registration);
+      })
+      .catch((error) => {
+        console.log("❌ Service Worker 등록 실패:", error);
+      });
+  });
+}
