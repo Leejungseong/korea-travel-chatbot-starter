@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor-community/admob": "^7.0.3",
     "@capacitor/android": "^7.4.3",
     "@capacitor/core": "^7.4.3",
     "axios": "^1.12.2",

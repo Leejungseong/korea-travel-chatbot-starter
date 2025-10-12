@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Deopy</string>
+    <string name="title_activity_main">Deopy</string>
+    <string name="package_name">com.deopy.app</string>
+    <string name="custom_url_scheme">com.deopy.app</string>
+</resources>
