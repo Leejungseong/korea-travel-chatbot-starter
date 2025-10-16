@@ -13,7 +13,8 @@
     }
   },
   "server": {
-    "url": "https://korea-travel-chatbot-starter.vercel.app",
+    "androidScheme": "https",
+    "allowNavigation": ["*"],
     "cleartext": true
   }
 }
